@@ -1,0 +1,35 @@
+My solutions to two ProgLang problems. Written in Prolog.
+
+**Flu Simulation (flu-sim.pl)**
+
+The predicate
+
+    infect(X, Y, Path).
+
+returns a path where X infects Y because X was defined as sick or infected
+by some student defined as sick.
+
+**Natural Language Parsing (nlp.pl)**
+
+The predicates
+
+    repl.
+    repl(State).
+
+start the natural language interface. The former uses the line specified in
+the assignment, the latter substitutes an arbitrary line. Students MUST
+have unique names.
+
+The natural language interface understands:
+
+    Switch X with Y.
+
+        Swap adjacent students.
+
+    Where is X in line?
+
+        Locate a student.
+
+    What is the current order of the line?
+
+        Print the line.
